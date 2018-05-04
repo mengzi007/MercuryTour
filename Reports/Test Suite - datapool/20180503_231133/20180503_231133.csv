@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite - datapool,IE 11,,2018-05-03 23:11:35,2018-05-03 23:13:39,2m - 3.832s,PASSED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,IE 11,,2018-05-03 23:11:35,2018-05-03 23:12:06,30.964s,PASSED
+openBrowser,IE 11,,2018-05-03 23:11:36,2018-05-03 23:11:47,10.726s,PASSED
+waitForElementPresent,IE 11,,2018-05-03 23:11:47,2018-05-03 23:11:47,0.123s,PASSED
+setText,IE 11,,2018-05-03 23:11:47,2018-05-03 23:11:47,0.487s,PASSED
+setText,IE 11,,2018-05-03 23:11:47,2018-05-03 23:11:48,0.411s,PASSED
+click,IE 11,,2018-05-03 23:11:48,2018-05-03 23:11:56,8.612s,PASSED
+waitForElementPresent,IE 11,,2018-05-03 23:11:56,2018-05-03 23:11:56,0.096s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:11:56,2018-05-03 23:11:57,0.427s,PASSED
+com.mercurytour.customkeyword.selectType,IE 11,,2018-05-03 23:11:57,2018-05-03 23:11:58,1.045s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:11:58,2018-05-03 23:11:58,0.347s,PASSED
+selectOptionByValue,IE 11,,2018-05-03 23:11:58,2018-05-03 23:11:58,0.408s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:11:58,2018-05-03 23:11:59,0.245s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:11:59,2018-05-03 23:11:59,0.248s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:11:59,2018-05-03 23:11:59,0.342s,PASSED
+click,IE 11,,2018-05-03 23:11:59,2018-05-03 23:12:05,5.979s,PASSED
+Statement - mydate = new java.util.Date(),IE 11,,2018-05-03 23:12:05,2018-05-03 23:12:05,0.020s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",IE 11,,2018-05-03 23:12:05,2018-05-03 23:12:05,0.005s,PASSED
+takeScreenshot,IE 11,,2018-05-03 23:12:05,2018-05-03 23:12:05,0.136s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2018-05-03 23:12:05,2018-05-03 23:12:05,0.007s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",IE 11,,2018-05-03 23:12:05,2018-05-03 23:12:06,0.070s,PASSED
+"Statement - actual = [""1"", ""3""]",IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.001s,PASSED
+"Statement - expect = [""1"", ""3""]",IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.001s,PASSED
+verifyEqual,IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.030s,PASSED
+"Statement - actual1 = [""1"", ""2""]",IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.000s,PASSED
+"Statement - expect1 = [""1"", ""2""]",IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.000s,PASSED
+verifyEqual,IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.002s,PASSED
+closeBrowser,IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:06,0.554s,PASSED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,IE 11,,2018-05-03 23:12:06,2018-05-03 23:13:39,1m - 32.444s,PASSED
+openBrowser,IE 11,,2018-05-03 23:12:06,2018-05-03 23:12:09,2.953s,PASSED
+waitForElementPresent,IE 11,,2018-05-03 23:12:09,2018-05-03 23:12:09,0.084s,PASSED
+setText,IE 11,,2018-05-03 23:12:09,2018-05-03 23:12:10,0.589s,PASSED
+setText,IE 11,,2018-05-03 23:12:10,2018-05-03 23:12:10,0.516s,PASSED
+click,IE 11,,2018-05-03 23:12:10,2018-05-03 23:12:15,4.294s,PASSED
+waitForElementPresent,IE 11,,2018-05-03 23:12:15,2018-05-03 23:12:15,0.075s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:12:15,2018-05-03 23:12:17,2.273s,PASSED
+com.mercurytour.customkeyword.selectType,IE 11,,2018-05-03 23:12:17,2018-05-03 23:12:24,7.230s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:12:24,2018-05-03 23:12:31,6.429s,PASSED
+selectOptionByValue,IE 11,,2018-05-03 23:12:31,2018-05-03 23:12:38,7.776s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:12:38,2018-05-03 23:12:44,5.319s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:12:44,2018-05-03 23:12:49,5.226s,PASSED
+selectOptionByLabel,IE 11,,2018-05-03 23:12:49,2018-05-03 23:12:55,6.323s,PASSED
+click,IE 11,,2018-05-03 23:12:55,2018-05-03 23:13:02,6.951s,PASSED
+Statement - mydate = new java.util.Date(),IE 11,,2018-05-03 23:13:02,2018-05-03 23:13:02,0.001s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",IE 11,,2018-05-03 23:13:02,2018-05-03 23:13:02,0.002s,PASSED
+takeScreenshot,IE 11,,2018-05-03 23:13:02,2018-05-03 23:13:02,0.132s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),IE 11,,2018-05-03 23:13:02,2018-05-03 23:13:02,0.000s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",IE 11,,2018-05-03 23:13:02,2018-05-03 23:13:04,1.283s,PASSED
+"Statement - actual = [""1"", ""3""]",IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.006s,PASSED
+"Statement - expect = [""1"", ""3""]",IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.001s,PASSED
+verifyEqual,IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.003s,PASSED
+"Statement - actual1 = [""1"", ""2""]",IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.000s,PASSED
+"Statement - expect1 = [""1"", ""2""]",IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.002s,PASSED
+verifyEqual,IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:04,0.004s,PASSED
+closeBrowser,IE 11,,2018-05-03 23:13:04,2018-05-03 23:13:39,34.887s,PASSED

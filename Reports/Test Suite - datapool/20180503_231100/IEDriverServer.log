@@ -1,0 +1,1320 @@
+I 2018-05-03 23:11:05:134 server.cc(86) Starting WebDriver server on port: '39774' on host: ''
+T 2018-05-03 23:11:05:134 server.cc(634) Entering Server::PopulateCommandRepository
+T 2018-05-03 23:11:05:135 IEServer.cpp(32) Entering IEServer::IEServer
+I 2018-05-03 23:11:05:135 IEServer.cpp(33) Driver version: 3.6.0.0 (32-bit)
+T 2018-05-03 23:11:05:135 server.cc(121) Entering Server::Start
+D 2018-05-03 23:11:05:135 server.cc(148) Civetweb ACL is -0.0.0.0/0,+127.0.0.1
+T 2018-05-03 23:11:05:485 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:05:485 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2018-05-03 23:11:05:486 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:05:486 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:05:486 server.cc(281) Command: GET /status {}
+T 2018-05-03 23:11:05:486 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2018-05-03 23:11:05:487 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:05:487 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:05:487 response.cc(51) Entering Response::Serialize
+D 2018-05-03 23:11:05:487 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Ready to create session","os":{"arch":"x64","name":"windows","version":"6.1.7601.18015 (win7sp1_gdr.121129-1432)"},"ready":true}}
+
+T 2018-05-03 23:11:05:487 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:05:487 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:05:487 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:05:747 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:05:747 server.cc(238) Entering Server::ReadRequestBody
+T 2018-05-03 23:11:05:747 server.cc(183) Process request with: URI: /session HTTP verb: POST
+body: {
+  "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+  "capabilities": {
+    "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}}
+    ]
+  }
+}
+T 2018-05-03 23:11:05:747 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:05:747 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:05:747 server.cc(281) Command: POST /session {
+  "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+  "capabilities": {
+    "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}}
+    ]
+  }
+}
+T 2018-05-03 23:11:05:747 IEServer.cpp(42) Entering IEServer::InitializeSession
+T 2018-05-03 23:11:05:747 IESession.cpp(38) Entering IESession::Initialize
+D 2018-05-03 23:11:05:747 IESession.cpp(53) Mutex acquired for session initalization
+T 2018-05-03 23:11:05:747 IECommandExecutor.cpp(386) Entering IECommandExecutor::ThreadProc
+T 2018-05-03 23:11:05:750 IECommandExecutor.cpp(47) Entering IECommandExecutor::OnCreate
+T 2018-05-03 23:11:05:750 IECommandExecutor.cpp(753) Entering IECommandExecutor::PopulateElementFinderMethods
+T 2018-05-03 23:11:05:750 InputManager.cpp(40) Entering InputManager::InputManager
+T 2018-05-03 23:11:05:750 InputManager.cpp(75) Entering InputManager::Initialize
+T 2018-05-03 23:11:05:750 BrowserFactory.cpp(998) Entering BrowserFactory::GetExecutableLocation
+T 2018-05-03 23:11:05:750 BrowserFactory.cpp(1039) Entering BrowserFactory::GetIEVersion
+T 2018-05-03 23:11:05:751 CommandHandlerRepository.cpp(108) Entering CommandHandlerRepository::PopulateCommandHandlers
+T 2018-05-03 23:11:05:751 IESession.cpp(99) Created thread for command executor returns HWND: '001B10DA'
+T 2018-05-03 23:11:05:751 IESession.cpp(103) Session id is retrived from command executor window: '91ab14e1-292f-4f8d-91b8-1b71ff9106bb'
+D 2018-05-03 23:11:05:751 IESession.cpp(109) Releasing session initialization mutex
+T 2018-05-03 23:11:05:751 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-05-03 23:11:05:751 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-05-03 23:11:05:751 command.cc(31) Entering Command::Deserialize
+D 2018-05-03 23:11:05:751 command.cc(36) Raw JSON command: { "name" : "newSession", "locator" : { }, "parameters" : {
+  "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+  "capabilities": {
+    "desiredCapabilities": {"CapabilityType.ACCEPT_SSL_CERTS":true,"InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS":true,"InternetExplorerDriver.NATIVE_EVENTS":false,"browserName":"internet explorer","ensureCleanSession":true,"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"platform":"WINDOWS","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}},
+    "firstMatch": [
+      {"browserName":"internet explorer","platformName":"windows","se:ieOptions":{"ie.usePerProcessProxy":"true","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true}}
+    ]
+  }
+} }
+T 2018-05-03 23:11:05:751 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-05-03 23:11:05:751 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-05-03 23:11:05:751 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+D 2018-05-03 23:11:05:751 CommandHandlers\NewSessionCommandHandler.cpp(46) Found W3C capabilities structure
+D 2018-05-03 23:11:05:751 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2018-05-03 23:11:05:751 CommandHandlers\NewSessionCommandHandler.cpp(505) Validating capabilities object
+D 2018-05-03 23:11:05:751 CommandHandlers\NewSessionCommandHandler.cpp(535) Found browserNamecapability. Validating value type is string.
+D 2018-05-03 23:11:05:752 CommandHandlers\NewSessionCommandHandler.cpp(564) Found platformNamecapability. Validating value type is string.
+D 2018-05-03 23:11:05:752 CommandHandlers\NewSessionCommandHandler.cpp(794) Found proxycapability. Validating value type is object.
+T 2018-05-03 23:11:05:752 BrowserFactory.cpp(113) Entering BrowserFactory::Initialize
+T 2018-05-03 23:11:05:752 IECommandExecutor.cpp(631) Entering IECommandExecutor::CreateNewBrowser
+T 2018-05-03 23:11:05:752 BrowserFactory.cpp(142) Entering BrowserFactory::LaunchBrowserProcess
+D 2018-05-03 23:11:05:752 BrowserFactory.cpp(146) Ignoring Protected Mode Settings: 1
+D 2018-05-03 23:11:05:752 BrowserFactory.cpp(152) Has Valid Protected Mode Settings: 0
+T 2018-05-03 23:11:05:752 BrowserFactory.cpp(226) Entering BrowserFactory::IsIELaunchURLAvailable
+T 2018-05-03 23:11:05:755 BrowserFactory.cpp(130) Entering BrowserFactory::ClearCache
+T 2018-05-03 23:11:05:755 BrowserFactory.cpp(247) Entering BrowserFactory::LaunchBrowserUsingIELaunchURL
+D 2018-05-03 23:11:05:755 BrowserFactory.cpp(248) Starting IE using the IELaunchURL API
+D 2018-05-03 23:11:06:163 BrowserFactory.cpp(202) IE launched successfully with process ID 10572
+D 2018-05-03 23:11:06:163 BrowserFactory.cpp(208) Process with ID 10572 is executing iexplore.exe
+T 2018-05-03 23:11:06:163 BrowserFactory.cpp(365) Entering BrowserFactory::AttachToBrowser
+D 2018-05-03 23:11:06:163 BrowserFactory.cpp(375) Using Active Accessibility to find IWebBrowser2 interface
+T 2018-05-03 23:11:06:163 BrowserFactory.cpp(414) Entering BrowserFactory::AttachToBrowserUsingActiveAccessibility
+T 2018-05-03 23:11:06:363 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:06:363 server.cc(183) Process request with: URI: / HTTP verb: GET
+body: {}
+T 2018-05-03 23:11:06:363 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:06:646 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:06:646 server.cc(183) Process request with: URI: /favicon.ico HTTP verb: GET
+body: {}
+T 2018-05-03 23:11:06:646 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:06:646 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:06:646 server.cc(281) Command: GET /favicon.ico {}
+D 2018-05-03 23:11:06:646 server.cc(338) Response: { "error" : "unknown method", "message" : "Command not found: GET /favicon.ico" }
+T 2018-05-03 23:11:06:646 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:06:646 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:06:646 server.cc(445) Entering Server::SendHttpOk
+D 2018-05-03 23:11:06:663 BrowserFactory.cpp(434) Found window handle 00220A6C for window with class 'Internet Explorer_Server' belonging to process with id 10572
+T 2018-05-03 23:11:06:663 BrowserFactory.cpp(329) Entering BrowserFactory::GetDocumentFromWindowHandle
+D 2018-05-03 23:11:06:708 BrowserFactory.cpp(396) Ignoring zoom setting: 1
+I 2018-05-03 23:11:06:708 IECommandExecutor.cpp(654) Persistent hovering set to: 1
+T 2018-05-03 23:11:06:708 ProxyManager.cpp(97) ProxyManager::SetProxySettings
+D 2018-05-03 23:11:06:708 ProxyManager.cpp(113) Using existing system proxy settings.
+T 2018-05-03 23:11:06:708 DocumentHost.cpp(33) Entering DocumentHost::DocumentHost
+T 2018-05-03 23:11:06:708 CookieManager.cpp(49) Entering CookieManager::Initialize
+T 2018-05-03 23:11:06:708 Browser.cpp(33) Entering Browser::Browser
+T 2018-05-03 23:11:06:708 Browser.cpp(293) Entering Browser::AttachEvents
+T 2018-05-03 23:11:06:709 IECommandExecutor.cpp(621) Entering IECommandExecutor::AddManagedBrowser
+T 2018-05-03 23:11:06:709 IECommandExecutor.cpp(625) Setting current browser id to ab48d1e1-fcb5-42a5-8c58-0d69e57a1390
+T 2018-05-03 23:11:06:710 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:06:710 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:06:710 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:710 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:710 response.cc(51) Entering Response::Serialize
+T 2018-05-03 23:11:06:714 IESession.cpp(221) Found non-zero response length
+T 2018-05-03 23:11:06:714 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-05-03 23:11:06:714 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+T 2018-05-03 23:11:06:714 response.cc(30) Entering Response::Deserialize
+D 2018-05-03 23:11:06:714 server.cc(338) Response: {"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"internet explorer","browserVersion":"11","pageLoadStrategy":"normal","platformName":"windows","se:ieOptions":{"browserAttachTimeout":0,"elementScrollBehavior":0,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"initialBrowserUrl":"http://localhost:39774/","nativeEvents":true,"requireWindowFocus":false},"setWindowRect":true},"sessionId":"91ab14e1-292f-4f8d-91b8-1b71ff9106bb"}}
+
+T 2018-05-03 23:11:06:714 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:06:714 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:06:714 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:06:794 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:06:794 server.cc(238) Entering Server::ReadRequestBody
+T 2018-05-03 23:11:06:794 server.cc(183) Process request with: URI: /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/timeouts HTTP verb: POST
+body: {"implicit":0}
+T 2018-05-03 23:11:06:794 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:06:794 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:06:794 server.cc(281) Command: POST /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/timeouts {"implicit":0}
+T 2018-05-03 23:11:06:794 server.cc(378) Entering Server::LookupSession
+T 2018-05-03 23:11:06:794 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-05-03 23:11:06:794 command.cc(31) Entering Command::Deserialize
+D 2018-05-03 23:11:06:794 command.cc(36) Raw JSON command: { "name" : "setTimeouts", "locator" : { "sessionid" : "91ab14e1-292f-4f8d-91b8-1b71ff9106bb" }, "parameters" : {"implicit":0} }
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2018-05-03 23:11:06:794 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:06:794 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:06:794 IECommandExecutor.cpp(543) No alert handle is found
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:794 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:794 response.cc(51) Entering Response::Serialize
+T 2018-05-03 23:11:06:794 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-05-03 23:11:06:804 IESession.cpp(221) Found non-zero response length
+T 2018-05-03 23:11:06:804 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-05-03 23:11:06:804 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2018-05-03 23:11:06:804 server.cc(338) Response: {"value":null}
+
+T 2018-05-03 23:11:06:804 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:06:804 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:06:804 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:06:823 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:06:824 server.cc(238) Entering Server::ReadRequestBody
+T 2018-05-03 23:11:06:824 server.cc(183) Process request with: URI: /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/execute/sync HTTP verb: POST
+body: {"script":"return navigator.sayswho\u003d (function() { var ua\u003d navigator.userAgent, tem, M\u003d ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem\u003d  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return \u0027IE \u0027+(tem[1] || \u0027\u0027); } if(M[1]\u003d\u003d\u003d \u0027Chrome\u0027) {     tem\u003d ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!\u003d null) return tem.slice(1).join(\u0027 \u0027).replace(\u0027OPR\u0027, \u0027Opera\u0027); } M\u003d M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, \u0027-?\u0027]; if((tem\u003d ua.match(/version\\/(\\d+)/i))!\u003d null) M.splice(1, 1, tem[1]); return M.join(\u0027 \u0027).replace(\u0027MSIE\u0027, \u0027IE\u0027);})();","args":[]}
+T 2018-05-03 23:11:06:824 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:06:824 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:06:824 server.cc(281) Command: POST /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/execute/sync {"script":"return navigator.sayswho\u003d (function() { var ua\u003d navigator.userAgent, tem, M\u003d ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem\u003d  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return \u0027IE \u0027+(tem[1] || \u0027\u0027); } if(M[1]\u003d\u003d\u003d \u0027Chrome\u0027) {     tem\u003d ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!\u003d null) return tem.slice(1).join(\u0027 \u0027).replace(\u0027OPR\u0027, \u0027Opera\u0027); } M\u003d M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, \u0027-?\u0027]; if((tem\u003d ua.match(/version\\/(\\d+)/i))!\u003d null) M.splice(1, 1, tem[1]); return M.join(\u0027 \u0027).replace(\u0027MSIE\u0027, \u0027IE\u0027);})();","args":[]}
+T 2018-05-03 23:11:06:824 server.cc(378) Entering Server::LookupSession
+T 2018-05-03 23:11:06:824 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-05-03 23:11:06:824 command.cc(31) Entering Command::Deserialize
+D 2018-05-03 23:11:06:824 command.cc(36) Raw JSON command: { "name" : "executeScript", "locator" : { "sessionid" : "91ab14e1-292f-4f8d-91b8-1b71ff9106bb" }, "parameters" : {"script":"return navigator.sayswho\u003d (function() { var ua\u003d navigator.userAgent, tem, M\u003d ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem\u003d  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return \u0027IE \u0027+(tem[1] || \u0027\u0027); } if(M[1]\u003d\u003d\u003d \u0027Chrome\u0027) {     tem\u003d ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!\u003d null) return tem.slice(1).join(\u0027 \u0027).replace(\u0027OPR\u0027, \u0027Opera\u0027); } M\u003d M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, \u0027-?\u0027]; if((tem\u003d ua.match(/version\\/(\\d+)/i))!\u003d null) M.splice(1, 1, tem[1]); return M.join(\u0027 \u0027).replace(\u0027MSIE\u0027, \u0027IE\u0027);})();","args":[]} }
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2018-05-03 23:11:06:824 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:06:824 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:06:824 IECommandExecutor.cpp(543) No alert handle is found
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:824 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:824 Browser.cpp(126) Entering Browser::GetDocument
+I 2018-05-03 23:11:06:824 Browser.cpp(130) No child frame focus. Focus is on top-level frame
+T 2018-05-03 23:11:06:825 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-05-03 23:11:06:832 Browser.cpp(613) Entering Browser::GetDocumentFromWindow
+T 2018-05-03 23:11:06:843 Script.cpp(49) Entering Script::Initialize
+T 2018-05-03 23:11:06:843 CommandHandlers\ExecuteScriptCommandHandler.cpp(85) Entering ExecuteScriptCommandHandler::PopulateArgumentArray
+T 2018-05-03 23:11:06:843 Script.cpp(169) Entering Script::Execute
+T 2018-05-03 23:11:06:843 Script.cpp(438) Entering Script::CreateAnonymousFunction
+T 2018-05-03 23:11:06:859 Script.cpp(426) Entering Script::ConvertResultToJsonValue
+T 2018-05-03 23:11:06:859 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:06:859 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:06:859 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:859 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:859 response.cc(51) Entering Response::Serialize
+T 2018-05-03 23:11:06:866 IESession.cpp(221) Found non-zero response length
+T 2018-05-03 23:11:06:866 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-05-03 23:11:06:866 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2018-05-03 23:11:06:866 server.cc(338) Response: {"value":"IE 11"}
+
+T 2018-05-03 23:11:06:866 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:06:866 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:06:866 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:06:883 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:06:883 server.cc(238) Entering Server::ReadRequestBody
+T 2018-05-03 23:11:06:883 server.cc(183) Process request with: URI: /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/url HTTP verb: POST
+body: {"url":"http://newtours.demoaut.com/"}
+T 2018-05-03 23:11:06:883 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:06:883 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:06:883 server.cc(281) Command: POST /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/url {"url":"http://newtours.demoaut.com/"}
+T 2018-05-03 23:11:06:883 server.cc(378) Entering Server::LookupSession
+T 2018-05-03 23:11:06:883 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-05-03 23:11:06:883 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-05-03 23:11:06:889 command.cc(31) Entering Command::Deserialize
+D 2018-05-03 23:11:06:889 command.cc(36) Raw JSON command: { "name" : "get", "locator" : { "sessionid" : "91ab14e1-292f-4f8d-91b8-1b71ff9106bb" }, "parameters" : {"url":"http://newtours.demoaut.com/"} }
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2018-05-03 23:11:06:889 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:06:889 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:06:889 IECommandExecutor.cpp(543) No alert handle is found
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:889 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:889 Browser.cpp(318) Entring Browser::NavigateToUrl
+T 2018-05-03 23:11:06:890 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-05-03 23:11:06:895 DocumentHost.cpp(142) Entering DocumentHost::SetFocusedFrameByElement
+T 2018-05-03 23:11:06:895 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:06:895 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:06:895 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:895 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:895 response.cc(51) Entering Response::Serialize
+T 2018-05-03 23:11:06:895 Browser.cpp(50) Entering Browser::BeforeNavigate2
+T 2018-05-03 23:11:06:895 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:06:895 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:06:895 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:06:895 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:06:895 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:06:895 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:06:895 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:06:897 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:06:898 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:07:098 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:07:098 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:07:098 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:07:098 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:07:098 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:07:098 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:07:098 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:07:100 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:07:101 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:07:301 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:07:301 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:07:301 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:07:301 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:07:301 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:07:301 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:07:301 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:07:303 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:07:304 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:07:504 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:07:504 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:07:504 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:07:504 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:07:504 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:07:504 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:07:504 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:07:505 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:07:506 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:07:706 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:07:706 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:07:706 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:07:706 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:07:706 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:07:706 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:07:706 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:07:708 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:07:709 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:07:909 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:07:910 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:07:910 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:07:910 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:07:910 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:07:910 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:07:910 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:07:911 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:07:912 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:08:112 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:08:112 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:08:112 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:08:112 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:08:112 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:08:112 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:08:112 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:08:119 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:08:119 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:08:319 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:08:319 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:08:319 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:08:319 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:08:319 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:08:319 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:08:319 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:08:321 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:08:323 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:08:524 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:08:524 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:08:524 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:08:524 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:08:524 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:08:524 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:08:524 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:08:525 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:08:527 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:08:727 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:08:727 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:08:727 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:08:727 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:08:727 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:08:727 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:08:727 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:08:729 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:08:730 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:08:931 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:08:931 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:08:931 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:08:931 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:08:931 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:08:931 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:08:931 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:08:933 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:08:934 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:09:134 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:09:134 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:09:134 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:09:134 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:09:134 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:09:134 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:09:134 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:09:135 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:09:136 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:09:336 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:09:336 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:09:336 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:09:336 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:09:336 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:09:336 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:09:336 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:09:337 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:09:338 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:09:538 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:09:538 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:09:538 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:09:538 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:09:538 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:09:538 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:09:538 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:09:539 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:09:540 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:09:740 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:09:740 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:09:740 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:09:740 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:09:740 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:09:740 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:09:740 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:09:740 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:09:740 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:09:940 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:09:940 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:09:940 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:09:940 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:09:940 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:09:940 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:09:940 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:09:940 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:09:940 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:10:141 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:10:142 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:10:142 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:10:142 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:10:142 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:10:142 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:10:142 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:10:143 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:10:144 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:10:344 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:10:344 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:10:344 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:10:344 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:10:344 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:10:344 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:10:344 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:10:346 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:10:356 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:10:556 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:10:556 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:10:556 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:10:556 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:10:556 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:10:556 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:10:556 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:10:557 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:10:559 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:10:759 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:10:759 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:10:759 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:10:759 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:10:760 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:10:760 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:10:760 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:10:762 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:10:763 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:10:963 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:10:963 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:10:963 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:10:963 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:10:963 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:10:963 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:10:963 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:10:965 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:10:965 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:11:166 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:11:166 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:11:166 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:11:166 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:11:166 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:11:166 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:11:167 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:11:168 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:11:169 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:11:369 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:11:369 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:11:369 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:11:369 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:11:369 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:11:369 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:11:369 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:11:371 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:11:371 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:11:571 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:11:571 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:11:571 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:11:571 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:11:571 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:11:571 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:11:571 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:11:573 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:11:574 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:11:774 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:11:774 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:11:774 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:11:774 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:11:774 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:11:774 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:11:774 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:11:776 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:11:777 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:11:977 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:11:977 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:11:977 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:11:977 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:11:977 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:11:977 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:11:978 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:11:981 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:11:982 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:12:182 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:12:182 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:12:182 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:12:182 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:12:182 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:12:182 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:12:182 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:12:184 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:12:184 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:12:384 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:12:384 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:12:384 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:12:384 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:12:384 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:12:384 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:12:384 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:12:384 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:12:384 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:12:584 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:12:584 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:12:584 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:12:584 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:12:584 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:12:584 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:12:584 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:12:585 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:12:586 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:12:786 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:12:786 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:12:786 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:12:786 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:12:786 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:12:786 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:12:786 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:12:787 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:12:788 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:12:988 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:12:988 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:12:988 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:12:988 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:12:988 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:12:988 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:12:988 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:12:989 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:12:990 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:13:190 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:13:190 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:13:190 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:13:190 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:13:190 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:13:190 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:13:190 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:13:192 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:13:192 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:13:393 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:13:393 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:13:393 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:13:393 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:13:393 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:13:393 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:13:393 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:13:395 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:13:397 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:13:597 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:13:597 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:13:597 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:13:597 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:13:597 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:13:597 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:13:597 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:13:599 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:13:599 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:13:799 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:13:799 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:13:799 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:13:799 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:13:799 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:13:799 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:13:799 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:13:801 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:13:801 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:14:001 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:14:001 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:14:001 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:14:001 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:14:001 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:14:001 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:14:001 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:14:002 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:14:003 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:14:203 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:14:203 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:14:203 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:14:203 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:14:203 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:14:203 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:14:203 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:14:205 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:14:205 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:14:406 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:14:406 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:14:406 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:14:406 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:14:406 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:14:406 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:14:406 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:14:407 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:14:408 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:14:608 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:14:608 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:14:608 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:14:608 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:14:608 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:14:608 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:14:608 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:14:609 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:14:610 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:14:810 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:14:810 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:14:810 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:14:810 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:14:810 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:14:810 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:14:810 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:14:810 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:14:811 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:15:011 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:15:011 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:15:011 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:15:011 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:15:011 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:15:011 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:15:011 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:15:011 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:15:011 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:15:211 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:15:211 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:15:211 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:15:211 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:15:211 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:15:211 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:15:211 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:15:213 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:15:213 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:15:413 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:15:413 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:15:413 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:15:414 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:15:414 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:15:414 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:15:414 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:15:415 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:15:416 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:15:616 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:15:616 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:15:616 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:15:617 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:15:617 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:15:617 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:15:617 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:15:618 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:15:619 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:15:819 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:15:819 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:15:819 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:15:819 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:15:819 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:15:819 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:15:819 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:15:821 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:15:822 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:16:023 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:16:023 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:16:023 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:16:023 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:16:023 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:16:024 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:16:024 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:16:027 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:16:028 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:16:228 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:16:228 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:16:228 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:16:228 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:16:229 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:16:229 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:16:229 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:16:230 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:16:231 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:16:431 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:16:431 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:16:431 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:16:431 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:16:431 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:16:431 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:16:431 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:16:432 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:16:433 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:16:636 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:16:636 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:16:636 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:16:636 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:16:636 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:16:636 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:16:636 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:16:638 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:16:640 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:16:840 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:16:841 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:16:841 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:16:841 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:16:841 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:16:841 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:16:841 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:16:843 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:16:845 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:17:045 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:17:045 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:17:045 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:17:045 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:17:045 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:17:045 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:17:045 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:17:045 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:17:046 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:17:246 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:17:246 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:17:246 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:17:246 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:17:246 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:17:246 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:17:246 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:17:247 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:17:248 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:17:448 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:17:448 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:17:448 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:17:448 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:17:448 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:17:448 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:17:448 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:17:450 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:17:452 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:17:652 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:17:652 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:17:652 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:17:652 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:17:652 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:17:652 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:17:652 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:17:652 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:17:652 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:17:852 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:17:852 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:17:852 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:17:852 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:17:852 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:17:852 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:17:852 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:17:853 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:17:853 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:18:053 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:18:053 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:18:053 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:18:053 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:18:053 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:18:053 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:18:053 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:18:055 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:18:056 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:18:256 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:18:256 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:18:256 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:18:256 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:18:256 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:18:256 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:18:256 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:18:259 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:18:259 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:18:459 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:18:459 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:18:459 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:18:459 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:18:459 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:18:459 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:18:459 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:18:459 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:18:460 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:18:660 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:18:660 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:18:660 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:18:660 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:18:660 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:18:660 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:18:660 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:18:660 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:18:660 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:18:860 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:18:860 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:18:860 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:18:860 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:18:860 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:18:860 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:18:860 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:18:862 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:18:863 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:19:063 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:19:063 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:19:063 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:19:063 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:19:063 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:19:063 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:19:063 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:19:064 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:19:065 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:19:266 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:19:266 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:19:266 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:19:266 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:19:267 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:19:267 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:19:267 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:19:269 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:19:271 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:19:471 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:19:471 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:19:471 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:19:471 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:19:471 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:19:471 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:19:471 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:19:473 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:19:474 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:19:674 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:19:674 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:19:674 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:19:674 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:19:674 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:19:674 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:19:674 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:19:675 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:19:676 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:19:877 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:19:877 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:19:877 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:19:877 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:19:877 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:19:877 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:19:877 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:19:879 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:19:880 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:20:080 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:20:080 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:20:080 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:20:081 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:20:081 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:20:081 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:20:081 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:20:081 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:20:081 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:20:282 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:20:282 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:20:282 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:20:282 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:20:282 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:20:282 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:20:282 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:20:282 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:20:282 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:20:482 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:20:483 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:20:483 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:20:483 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:20:483 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:20:483 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:20:483 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:20:485 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:20:486 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:20:687 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:20:687 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:20:687 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:20:687 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:20:687 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:20:687 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:20:687 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:20:689 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:20:690 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:20:890 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:20:891 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:20:891 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:20:891 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:20:891 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:20:891 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:20:891 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:20:893 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:20:895 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:21:095 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:21:095 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:21:095 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:21:095 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:21:095 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:21:095 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:21:095 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:21:096 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:21:097 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:21:297 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:21:297 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:21:297 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:21:297 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:21:297 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:21:297 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:21:297 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:21:299 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:21:300 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:21:503 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:21:503 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:21:503 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:21:503 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:21:503 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:21:503 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:21:503 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:21:504 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:21:505 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:21:705 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:21:705 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:21:705 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:21:705 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:21:705 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:21:705 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:21:705 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:21:707 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:21:707 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:21:907 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:21:907 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:21:907 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:21:907 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:21:907 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:21:907 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:21:907 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:21:910 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:21:911 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:22:111 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:22:111 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:22:111 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:22:111 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:22:111 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:22:111 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:22:111 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:22:113 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:22:113 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:22:313 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:22:313 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:22:313 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:22:313 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:22:313 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:22:313 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:22:313 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:22:314 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:22:315 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:22:515 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:22:516 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:22:516 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:22:516 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:22:516 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:22:516 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:22:516 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:22:517 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:22:517 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:22:717 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:22:717 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:22:717 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:22:717 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:22:717 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:22:717 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:22:717 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:22:718 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:22:719 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:22:919 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:22:919 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:22:919 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:22:919 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:22:919 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:22:919 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:22:919 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:22:919 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:22:919 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:23:119 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:23:119 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:23:119 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:23:119 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:23:119 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:23:119 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:23:119 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:23:120 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:23:121 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:23:327 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:23:327 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:23:327 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:23:327 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:23:327 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:23:327 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:23:327 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:23:328 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:23:328 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:23:528 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:23:528 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:23:528 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:23:528 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:23:528 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:23:528 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:23:528 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:23:530 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:23:530 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:23:730 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:23:730 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:23:730 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:23:730 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:23:730 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:23:730 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:23:730 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:23:730 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:23:730 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:23:930 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:23:930 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:23:930 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:23:930 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:23:930 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:23:930 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:23:930 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:23:932 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:23:932 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:24:133 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:24:133 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:24:133 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:24:133 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:24:133 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:24:133 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:24:133 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:24:134 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:24:135 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:24:335 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:24:335 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:24:335 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:24:335 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:24:335 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:24:335 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:24:335 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:24:336 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:24:337 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:24:537 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:24:538 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:24:538 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:24:538 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:24:538 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:24:538 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:24:538 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:24:538 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:24:539 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:24:739 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:24:739 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:24:739 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:24:739 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:24:739 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:24:739 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:24:739 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:24:740 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:24:741 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:24:941 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:24:941 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:24:941 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:24:941 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:24:941 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:24:941 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:24:941 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:24:943 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:24:944 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:25:144 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:25:145 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:25:145 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:25:145 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:25:145 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:25:145 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:25:145 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:25:147 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:25:148 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:25:348 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:25:348 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:25:348 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:25:348 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:25:348 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:25:348 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:25:348 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:25:349 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:25:349 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:25:549 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:25:549 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:25:549 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:25:549 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:25:549 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:25:549 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:25:549 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:25:549 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:25:549 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:25:749 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:25:749 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:25:749 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:25:749 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:25:749 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:25:749 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:25:749 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:25:750 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:25:751 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:25:951 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:25:951 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:25:952 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:25:952 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:25:952 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:25:952 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:25:952 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:25:953 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:25:954 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:26:154 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:26:154 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:26:154 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:26:154 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:26:154 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:26:154 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:26:154 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:26:156 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:26:158 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:26:361 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:26:361 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:26:361 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:26:361 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:26:361 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:26:361 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:26:361 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:26:363 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:26:369 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:26:569 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:26:570 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:26:570 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:26:570 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:26:570 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:26:570 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:26:570 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:26:572 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:26:574 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:26:775 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:26:775 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:26:775 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:26:775 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:26:775 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:26:775 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:26:775 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:26:776 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:26:777 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:26:977 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:26:977 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:26:977 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:26:977 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:26:977 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:26:977 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:26:977 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:26:979 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:26:981 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:27:182 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:27:182 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:27:182 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:27:182 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:27:182 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:27:182 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:27:182 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:27:184 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:27:185 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:27:393 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:27:393 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:27:393 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:27:393 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:27:393 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:27:393 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:27:393 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:27:394 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:27:395 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:27:595 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:27:595 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:27:595 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:27:595 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:27:595 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:27:595 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:27:595 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:27:601 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:27:603 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:27:804 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:27:804 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:27:804 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:27:804 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:27:804 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:27:804 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:27:804 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:27:806 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:27:808 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:008 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:008 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:008 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:008 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:008 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:008 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:008 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:009 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:009 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:209 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:209 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:209 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:209 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:209 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:209 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:209 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:209 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:210 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:410 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:410 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:410 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:410 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:410 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:410 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:410 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:411 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:412 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:612 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:612 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:612 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:612 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:612 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:612 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:612 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:614 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:615 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:815 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:815 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:815 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:815 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:815 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:815 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:815 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:817 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:818 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:28:917 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:28:917 server.cc(183) Process request with: URI: /status HTTP verb: GET
+body: {}
+T 2018-05-03 23:11:28:917 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:28:917 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:28:917 server.cc(281) Command: GET /status {}
+T 2018-05-03 23:11:28:917 IEServer.cpp(51) Entering IEServer::GetStatus
+T 2018-05-03 23:11:28:917 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:28:917 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:28:917 response.cc(51) Entering Response::Serialize
+D 2018-05-03 23:11:28:918 server.cc(338) Response: {"value":{"build":{"version":"3.6.0.0 (32-bit)"},"message":"Maximum number of sessions already created","os":{"arch":"x64","name":"windows","version":"6.1.7601.18015 (win7sp1_gdr.121129-1432)"},"ready":false}}
+
+T 2018-05-03 23:11:28:918 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:28:918 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:28:918 server.cc(445) Entering Server::SendHttpOk
+T 2018-05-03 23:11:28:939 server.cc(174) Entering Server::ProcessRequest
+T 2018-05-03 23:11:28:939 server.cc(183) Process request with: URI: /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/title HTTP verb: GET
+body: {}
+T 2018-05-03 23:11:28:939 server.cc(272) Entering Server::DispatchCommand
+T 2018-05-03 23:11:28:939 server.cc(583) Entering Server::LookupCommand
+D 2018-05-03 23:11:28:939 server.cc(281) Command: GET /session/91ab14e1-292f-4f8d-91b8-1b71ff9106bb/title {}
+T 2018-05-03 23:11:28:939 server.cc(378) Entering Server::LookupSession
+T 2018-05-03 23:11:28:939 IESession.cpp(191) Entering IESession::ExecuteCommand
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(122) Entering IECommandExecutor::OnSetCommand
+T 2018-05-03 23:11:28:939 command.cc(31) Entering Command::Deserialize
+D 2018-05-03 23:11:28:939 command.cc(36) Raw JSON command: { "name" : "getTitle", "locator" : { "sessionid" : "91ab14e1-292f-4f8d-91b8-1b71ff9106bb" }, "parameters" : {} }
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(133) Entering IECommandExecutor::OnExecCommand
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(454) Entering IECommandExecutor::DispatchCommand
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:939 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2018-05-03 23:11:28:939 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:940 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:940 IECommandExecutor.cpp(543) No alert handle is found
+T 2018-05-03 23:11:28:940 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:940 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:940 Browser.cpp(162) Entering Browser::GetTitle
+T 2018-05-03 23:11:28:940 IESession.cpp(212) Beginning wait for response length to be not zero
+T 2018-05-03 23:11:28:945 response.cc(72) Entering Response::SetSuccessResponse
+T 2018-05-03 23:11:28:945 response.cc(78) Entering Response::SetResponse
+T 2018-05-03 23:11:28:945 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:945 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:945 response.cc(51) Entering Response::Serialize
+T 2018-05-03 23:11:28:945 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:28:945 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:28:945 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:28:945 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:28:945 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:28:945 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:28:945 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:28:946 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:28:946 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:29:018 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:29:018 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:29:018 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:29:018 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:29:018 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:29:018 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:29:019 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:29:023 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:29:024 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:29:146 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:29:146 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:29:146 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+T 2018-05-03 23:11:29:146 Browser.cpp(438) Entering Browser::Wait
+D 2018-05-03 23:11:29:146 Browser.cpp(448) Navigate Events Completed.
+T 2018-05-03 23:11:29:146 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:29:146 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:29:148 Browser.cpp(464) Browser busy property is true.
+T 2018-05-03 23:11:29:149 IECommandExecutor.cpp(377) Entering IECommandExecutor::WaitThreadProc
+T 2018-05-03 23:11:29:218 Browser.cpp(54) Entering Browser::OnQuit
+T 2018-05-03 23:11:29:218 DocumentHost.cpp(252) Entering DocumentHost::PostQuitMessage
+T 2018-05-03 23:11:29:218 IECommandExecutor.cpp(250) Entering IECommandExecutor::OnBrowserQuit
+T 2018-05-03 23:11:29:218 IECommandExecutor.cpp(529) Entering IECommandExecutor::IsAlertActive
+T 2018-05-03 23:11:29:218 Browser.cpp(700) Entering Browser::GetActiveDialogWindowHandle
+T 2018-05-03 23:11:29:218 Browser.cpp(206) Entering Browser::GetContentWindowHandle
+D 2018-05-03 23:11:29:218 IECommandExecutor.cpp(543) No alert handle is found
+T 2018-05-03 23:11:29:218 Browser.cpp(300) Entering Browser::DetachEvents
+T 2018-05-03 23:11:29:228 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:29:228 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:29:228 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2018-05-03 23:11:29:228 IECommandExecutor.cpp(591) Browser ID requested was an empty string
+T 2018-05-03 23:11:29:233 IESession.cpp(221) Found non-zero response length
+T 2018-05-03 23:11:29:233 IESession.cpp(221) Found non-zero response length
+T 2018-05-03 23:11:29:233 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-05-03 23:11:29:234 IECommandExecutor.cpp(156) Entering IECommandExecutor::OnGetResponse
+T 2018-05-03 23:11:29:234 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+T 2018-05-03 23:11:29:234 IECommandExecutor.cpp(285) Entering IECommandExecutor::OnIsSessionValid
+D 2018-05-03 23:11:29:234 server.cc(338) Response: {"value":"Welcome: Mercury Tours"}
+
+T 2018-05-03 23:11:29:234 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:29:234 response.cc(30) Entering Response::Deserialize
+T 2018-05-03 23:11:29:234 server.cc(445) Entering Server::SendHttpOk
+D 2018-05-03 23:11:29:234 server.cc(338) Response: 
+T 2018-05-03 23:11:29:234 server.cc(391) Entering Server::SendResponseToClient
+T 2018-05-03 23:11:29:349 IECommandExecutor.cpp(172) Entering IECommandExecutor::OnWait
+T 2018-05-03 23:11:29:349 IECommandExecutor.cpp(577) Entering IECommandExecutor::GetCurrentBrowser
+T 2018-05-03 23:11:29:349 IECommandExecutor.cpp(583) Entering IECommandExecutor::GetManagedBrowser
+W 2018-05-03 23:11:29:349 IECommandExecutor.cpp(591) Browser ID requested was an empty string

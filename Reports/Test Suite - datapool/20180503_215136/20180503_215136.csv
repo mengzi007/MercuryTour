@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite - datapool,Firefox 59.0,,2018-05-03 21:51:38,2018-05-03 21:52:32,53.406s,PASSED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Firefox 59.0,,2018-05-03 21:51:39,2018-05-03 21:52:07,27.944s,PASSED
+openBrowser,Firefox 59.0,,2018-05-03 21:51:39,2018-05-03 21:51:53,14.086s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-05-03 21:51:53,2018-05-03 21:51:54,0.218s,PASSED
+setText,Firefox 59.0,,2018-05-03 21:51:54,2018-05-03 21:51:54,0.278s,PASSED
+setText,Firefox 59.0,,2018-05-03 21:51:54,2018-05-03 21:51:54,0.219s,PASSED
+click,Firefox 59.0,,2018-05-03 21:51:54,2018-05-03 21:51:59,5.383s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-05-03 21:51:59,2018-05-03 21:52:02,2.597s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:02,2018-05-03 21:52:03,0.484s,PASSED
+com.mercurytour.customkeyword.selectType,Firefox 59.0,,2018-05-03 21:52:03,2018-05-03 21:52:03,0.308s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:03,2018-05-03 21:52:03,0.369s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 21:52:03,2018-05-03 21:52:04,0.334s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:04,2018-05-03 21:52:04,0.077s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:04,2018-05-03 21:52:04,0.130s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:04,2018-05-03 21:52:04,0.308s,PASSED
+click,Firefox 59.0,,2018-05-03 21:52:04,2018-05-03 21:52:06,1.843s,PASSED
+Statement - mydate = new java.util.Date(),Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.006s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.004s,PASSED
+takeScreenshot,Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.195s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.010s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.041s,PASSED
+"Statement - actual = [""1"", ""3""]",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.001s,PASSED
+"Statement - expect = [""1"", ""3""]",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.001s,PASSED
+verifyEqual,Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.041s,PASSED
+"Statement - actual1 = [""1"", ""2""]",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.001s,PASSED
+"Statement - expect1 = [""1"", ""2""]",Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.001s,PASSED
+verifyEqual,Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:06,0.002s,PASSED
+closeBrowser,Firefox 59.0,,2018-05-03 21:52:06,2018-05-03 21:52:07,0.391s,PASSED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Firefox 59.0,,2018-05-03 21:52:07,2018-05-03 21:52:32,24.962s,PASSED
+openBrowser,Firefox 59.0,,2018-05-03 21:52:07,2018-05-03 21:52:20,13.245s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-05-03 21:52:20,2018-05-03 21:52:20,0.051s,PASSED
+setText,Firefox 59.0,,2018-05-03 21:52:20,2018-05-03 21:52:20,0.132s,PASSED
+setText,Firefox 59.0,,2018-05-03 21:52:20,2018-05-03 21:52:20,0.272s,PASSED
+click,Firefox 59.0,,2018-05-03 21:52:20,2018-05-03 21:52:23,2.759s,PASSED
+waitForElementPresent,Firefox 59.0,,2018-05-03 21:52:23,2018-05-03 21:52:23,0.034s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:23,2018-05-03 21:52:24,0.318s,PASSED
+com.mercurytour.customkeyword.selectType,Firefox 59.0,,2018-05-03 21:52:24,2018-05-03 21:52:24,0.336s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:24,2018-05-03 21:52:24,0.321s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 21:52:24,2018-05-03 21:52:25,0.431s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:25,2018-05-03 21:52:25,0.115s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:25,2018-05-03 21:52:25,0.117s,PASSED
+selectOptionByLabel,Firefox 59.0,,2018-05-03 21:52:25,2018-05-03 21:52:25,0.300s,PASSED
+click,Firefox 59.0,,2018-05-03 21:52:25,2018-05-03 21:52:31,5.731s,PASSED
+Statement - mydate = new java.util.Date(),Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.000s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.001s,PASSED
+takeScreenshot,Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.194s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.000s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.013s,PASSED
+"Statement - actual = [""1"", ""3""]",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.003s,PASSED
+"Statement - expect = [""1"", ""3""]",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.001s,PASSED
+verifyEqual,Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.002s,PASSED
+"Statement - actual1 = [""1"", ""2""]",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.000s,PASSED
+"Statement - expect1 = [""1"", ""2""]",Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.002s,PASSED
+verifyEqual,Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:31,0.002s,PASSED
+closeBrowser,Firefox 59.0,,2018-05-03 21:52:31,2018-05-03 21:52:32,0.485s,PASSED

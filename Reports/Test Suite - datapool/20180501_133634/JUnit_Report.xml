@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite - datapool" time="26" tests="0" failures="2" errors="0">
+   <testsuite name="Test Suite - datapool" tests="0" failures="2" errors="0" time="26" timestamp="2018-05-01 13:36:35" hostname="neilliao - IBM859-R90KZZET" id="Test Suites/Test Suite - datapool">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_133634"/>
+         <property name="logFiles" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_133634\\execution0.log"/>
+         <property name="attachments" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\screenshot\\screenshot_20180501013647.png, C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\screenshot\\screenshot_20180501013700.png"/>
+         <property name="hostName" value="neilliao - IBM859-R90KZZET"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.168.1"/>
+         <property name="sessionId" value="5647dacb47f09db9ff6feb8b170131ae"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)"/>
+         <system-out><![CDATA[2018-05-01 13:36:35 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:36:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 13:36:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 13:36:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 13:36:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 13:36:42 - [TEST_STEP][PASSED] - setText: Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 13:36:42 - [MESSAGE][PASSED] - Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 13:36:42 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 13:36:42 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 13:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Find a Flight Mercury Tours/rdog_tripType' is present
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Find a Flight Mercury Tours/rdog_tripType' is present
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '20' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departDay' 
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - All options with label '20' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departDay' 
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - com.mercurytour.customkeyword.selectType: com.mercurytour.customkeyword.selectType is PASSED
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - com.mercurytour.customkeyword.selectType is PASSED
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '2' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_passengerNum' 
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_passengerNum' 
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Frankfurt' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departFrom' 
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - All options with value 'Frankfurt' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departFrom' 
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departMonth' 
+
+2018-05-01 13:36:45 - [MESSAGE][PASSED] - All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departMonth' 
+
+2018-05-01 13:36:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnMonth' 
+
+2018-05-01 13:36:46 - [MESSAGE][PASSED] - All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnMonth' 
+
+2018-05-01 13:36:46 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '21' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnDay' 
+
+2018-05-01 13:36:46 - [MESSAGE][PASSED] - All options with label '21' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnDay' 
+
+2018-05-01 13:36:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Find a Flight Mercury Tours/btn_continue' is clicked on
+
+2018-05-01 13:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Find a Flight Mercury Tours/btn_continue' is clicked on
+
+2018-05-01 13:36:47 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-05-01 13:36:47 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("yyyyMMddhhmmss"): null
+
+2018-05-01 13:36:47 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-05-01 13:36:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\screenshot\\screenshot_20180501013647.png]]
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - table = driver.findElement(org.openqa.selenium.By.xpath("/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]")): null
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - actual = ["1", "2"]: null
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - expect = ["1", "3"]: null
+
+2018-05-01 13:36:48 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:36:48 - [MESSAGE][FAILED] - Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - actual1 = ["1", "2"]: null
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - Statement - expect1 = ["1", "2"]: null
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - verifyEqual: Actual object '[1, 2]' and expected object '[1, 2]' are equal
+
+2018-05-01 13:36:48 - [MESSAGE][PASSED] - Actual object '[1, 2]' and expected object '[1, 2]' are equal
+
+2018-05-01 13:36:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 13:36:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 13:36:35 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)"/>
+         <system-out><![CDATA[2018-05-01 13:36:49 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:36:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 13:36:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 13:36:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 13:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 13:36:55 - [TEST_STEP][PASSED] - setText: Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 13:36:55 - [MESSAGE][PASSED] - Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 13:36:55 - [TEST_STEP][PASSED] - setText: Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 13:36:55 - [MESSAGE][PASSED] - Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 13:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-05-01 13:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Welcome Mercury Tours/input_login' is clicked on
+
+2018-05-01 13:36:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Find a Flight Mercury Tours/rdog_tripType' is present
+
+2018-05-01 13:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Find a Flight Mercury Tours/rdog_tripType' is present
+
+2018-05-01 13:36:58 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '20' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departDay' 
+
+2018-05-01 13:36:58 - [MESSAGE][PASSED] - All options with label '20' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departDay' 
+
+2018-05-01 13:36:58 - [TEST_STEP][PASSED] - com.mercurytour.customkeyword.selectType: com.mercurytour.customkeyword.selectType is PASSED
+
+2018-05-01 13:36:58 - [MESSAGE][PASSED] - com.mercurytour.customkeyword.selectType is PASSED
+
+2018-05-01 13:36:58 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '2' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_passengerNum' 
+
+2018-05-01 13:36:59 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_passengerNum' 
+
+2018-05-01 13:36:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Frankfurt' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departFrom' 
+
+2018-05-01 13:36:59 - [MESSAGE][PASSED] - All options with value 'Frankfurt' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departFrom' 
+
+2018-05-01 13:36:59 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departMonth' 
+
+2018-05-01 13:36:59 - [MESSAGE][PASSED] - All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_departMonth' 
+
+2018-05-01 13:36:59 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnMonth' 
+
+2018-05-01 13:36:59 - [MESSAGE][PASSED] - All options with label 'May' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnMonth' 
+
+2018-05-01 13:36:59 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label '21' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnDay' 
+
+2018-05-01 13:36:59 - [MESSAGE][PASSED] - All options with label '21' are selected in object 'Object Repository/Page_Find a Flight Mercury Tours/select_returnDay' 
+
+2018-05-01 13:36:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Find a Flight Mercury Tours/btn_continue' is clicked on
+
+2018-05-01 13:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Find a Flight Mercury Tours/btn_continue' is clicked on
+
+2018-05-01 13:37:00 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-05-01 13:37:00 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("yyyyMMddhhmmss"): null
+
+2018-05-01 13:37:00 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-05-01 13:37:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\screenshot\\screenshot_20180501013700.png]]
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - table = driver.findElement(org.openqa.selenium.By.xpath("/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]")): null
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - actual = ["1", "2"]: null
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - expect = ["1", "3"]: null
+
+2018-05-01 13:37:01 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:37:01 - [MESSAGE][FAILED] - Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - actual1 = ["1", "2"]: null
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - Statement - expect1 = ["1", "2"]: null
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - verifyEqual: Actual object '[1, 2]' and expected object '[1, 2]' are equal
+
+2018-05-01 13:37:01 - [MESSAGE][PASSED] - Actual object '[1, 2]' and expected object '[1, 2]' are equal
+
+2018-05-01 13:37:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-01 13:37:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-01 13:36:49 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-01 13:36:35 - [TEST_SUITE][FAILED] - Test Suite - datapool: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-05-01 13:36:35 - [TEST_SUITE][FAILED] - Test Suite - datapool: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to verify equal between actual object '[1, 2]' and expected object '[1, 3]' (Root cause: Actual object '[1, 2]' and expected object '[1, 3]' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

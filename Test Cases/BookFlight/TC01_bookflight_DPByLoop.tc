@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_bookflight_DPByLoop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1e94f23-d2f5-47d6-9f22-392edf06b3f2</testCaseGuid>
+</TestCaseEntity>

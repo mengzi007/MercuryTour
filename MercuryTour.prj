@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>MercuryTour</name>
+   <tag></tag>
+   <UUID>c93d48f8-6e4d-4da1-8fe2-5c53284e37b4</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

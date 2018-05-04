@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite - datapool" time="132" tests="0" failures="2" errors="0">
+   <testsuite name="Test Suite - datapool" tests="0" failures="2" errors="0" time="132" timestamp="2018-05-01 14:15:04" hostname="neilliao - IBM859-R90KZZET" id="Test Suites/Test Suite - datapool">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502"/>
+         <property name="logFiles" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502\\execution0.log"/>
+         <property name="attachments" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502\\1525155345629.png, C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502\\1525155435153.png"/>
+         <property name="hostName" value="neilliao - IBM859-R90KZZET"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.168.1"/>
+         <property name="sessionId" value="a0d14f16536932de35b638b0c3c2dff3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)"/>
+         <system-out><![CDATA[2018-05-01 14:15:04 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+
+2018-05-01 14:15:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 14:15:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 14:15:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 14:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 14:15:13 - [TEST_STEP][PASSED] - setText: Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 14:15:13 - [MESSAGE][PASSED] - Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 14:15:13 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 14:15:13 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 14:15:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+
+2018-05-01 14:15:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+[[ATTACHMENT|C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502\\1525155345629.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-01 14:15:04 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)"/>
+         <system-out><![CDATA[2018-05-01 14:15:46 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+
+2018-05-01 14:15:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 14:15:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-01 14:16:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-05-01 14:16:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 14:16:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-05-01 14:16:43 - [TEST_STEP][PASSED] - setText: Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 14:16:43 - [MESSAGE][PASSED] - Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-05-01 14:16:43 - [TEST_STEP][PASSED] - setText: Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 14:16:43 - [MESSAGE][PASSED] - Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-05-01 14:16:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+
+2018-05-01 14:17:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)
+[[ATTACHMENT|C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180501_141502\\1525155435153.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-01 14:15:46 - [TEST_CASE][FAILED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-01 14:15:04 - [TEST_SUITE][FAILED] - Test Suite - datapool: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-01 14:15:04 - [TEST_SUITE][FAILED] - Test Suite - datapool: Test Cases/BookFlight/TC01_bookflight_DPBysuit FAILED because (of) Unable to click on object 'Object Repository/Page_Welcome Mercury Tours/input_login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Welcome Mercury Tours/input_login' located by 'By.xpath: //input[@name = 'logins']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

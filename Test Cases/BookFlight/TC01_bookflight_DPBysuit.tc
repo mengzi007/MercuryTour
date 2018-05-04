@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_bookflight_DPBysuit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2832f2a1-3d98-4566-98bd-4d2fa2996b7d</testCaseGuid>
+   <variable>
+      <defaultValue>'mercury'</defaultValue>
+      <description></description>
+      <id>f178f880-9531-4acc-a7e5-02dbe0bf14d4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'mercury'</defaultValue>
+      <description></description>
+      <id>88ebf1c3-a4b6-4f97-a498-ee118da22e77</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>3ce86cbd-80ee-4013-91bf-b212a2e6577d</id>
+      <masked>false</masked>
+      <name>passengerNum</name>
+   </variable>
+</TestCaseEntity>

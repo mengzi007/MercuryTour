@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite - datapool,Chrome 65.0.3325.181,,2018-04-29 23:22:45,2018-04-29 23:23:19,33.503s,FAILED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-04-29 23:22:46,2018-04-29 23:23:02,16.505s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-29 23:22:46,2018-04-29 23:22:53,6.904s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-29 23:22:53,2018-04-29 23:22:53,0.080s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-29 23:22:53,2018-04-29 23:22:54,0.165s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-29 23:22:54,2018-04-29 23:22:54,0.145s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-29 23:22:54,2018-04-29 23:22:57,3.503s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-29 23:22:57,2018-04-29 23:22:57,0.035s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-04-29 23:22:57,2018-04-29 23:22:57,0.132s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:22:57,2018-04-29 23:22:57,0.123s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-04-29 23:22:57,2018-04-29 23:22:58,0.153s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:22:58,2018-04-29 23:22:58,0.217s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:22:58,2018-04-29 23:22:58,0.115s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:22:58,2018-04-29 23:22:58,0.152s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:22:58,2018-04-29 23:22:58,0.109s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-29 23:22:58,2018-04-29 23:23:02,4.049s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-29 23:23:02,2018-04-29 23:23:02,0.009s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-04-29 23:23:02,2018-04-29 23:23:02,0.026s,PASSED
+Statement - If (table != null),Chrome 65.0.3325.181,,2018-04-29 23:23:02,2018-04-29 23:23:02,0.081s,FAILED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-04-29 23:23:02,2018-04-29 23:23:18,15.877s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-29 23:23:02,2018-04-29 23:23:12,9.822s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-29 23:23:12,2018-04-29 23:23:12,0.054s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-29 23:23:12,2018-04-29 23:23:12,0.159s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-29 23:23:12,2018-04-29 23:23:13,0.119s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-29 23:23:13,2018-04-29 23:23:15,2.887s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-04-29 23:23:15,2018-04-29 23:23:15,0.032s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-04-29 23:23:15,2018-04-29 23:23:16,0.121s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:23:16,2018-04-29 23:23:16,0.184s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-04-29 23:23:16,2018-04-29 23:23:16,0.135s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:23:16,2018-04-29 23:23:16,0.197s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:23:16,2018-04-29 23:23:16,0.208s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:23:16,2018-04-29 23:23:17,0.230s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-04-29 23:23:17,2018-04-29 23:23:17,0.286s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-29 23:23:17,2018-04-29 23:23:18,1.340s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-04-29 23:23:18,2018-04-29 23:23:18,0.001s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-04-29 23:23:18,2018-04-29 23:23:18,0.032s,PASSED
+Statement - If (table != null),Chrome 65.0.3325.181,,2018-04-29 23:23:18,2018-04-29 23:23:18,0.033s,FAILED

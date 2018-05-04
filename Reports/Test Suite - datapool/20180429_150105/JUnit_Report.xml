@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite - datapool" time="12" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite - datapool" tests="2" failures="0" errors="0" time="12" timestamp="2018-04-29 15:01:06" hostname="neilliao - IBM859-R90KZZET" id="Test Suites/Test Suite - datapool">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180429_150105"/>
+         <property name="logFiles" value="C:\\IBM\\WorkSpace\\Katalon Studio\\MercuryTour\\Reports\\Test Suite - datapool\\20180429_150105\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="neilliao - IBM859-R90KZZET"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.168.1"/>
+         <property name="sessionId" value="92efa5cb63f17a907f32ba65c9151b9f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="PASSED">
+         <system-out><![CDATA[2018-04-29 15:01:07 - [TEST_CASE][PASSED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit
+
+2018-04-29 15:01:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-04-29 15:01:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-04-29 15:01:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-04-29 15:01:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-04-29 15:01:13 - [TEST_STEP][PASSED] - setText: Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-04-29 15:01:13 - [MESSAGE][PASSED] - Text 'neil1' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-04-29 15:01:13 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-04-29 15:01:14 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-04-29 15:01:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 15:01:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BookFlight/TC01_bookflight_DPBysuit" classname="Test Cases/BookFlight/TC01_bookflight_DPBysuit" status="PASSED">
+         <system-out><![CDATA[2018-04-29 15:01:14 - [TEST_CASE][PASSED] - Test Cases/BookFlight/TC01_bookflight_DPBysuit: Test Cases/BookFlight/TC01_bookflight_DPBysuit
+
+2018-04-29 15:01:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-04-29 15:01:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2018-04-29 15:01:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-04-29 15:01:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Welcome Mercury Tours/input_userName' is present
+
+2018-04-29 15:01:18 - [TEST_STEP][PASSED] - setText: Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-04-29 15:01:18 - [MESSAGE][PASSED] - Text 'neil2' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_userName'
+
+2018-04-29 15:01:18 - [TEST_STEP][PASSED] - setText: Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-04-29 15:01:18 - [MESSAGE][PASSED] - Text '67890' is set on object 'Object Repository/Page_Welcome Mercury Tours/input_password'
+
+2018-04-29 15:01:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-29 15:01:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-29 15:01:06 - [TEST_SUITE][PASSED] - Test Suite - datapool: Test Cases/BookFlight/TC01_bookflight_DPBysuit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

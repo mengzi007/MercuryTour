@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite - datapool,Chrome 65.0.3325.181,,2018-05-01 13:25:28,2018-05-01 13:25:53,25.068s,ERROR
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-05-01 13:25:28,2018-05-01 13:25:40,11.823s,ERROR
+openBrowser,Chrome 65.0.3325.181,,2018-05-01 13:25:29,2018-05-01 13:25:35,6.134s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:25:35,2018-05-01 13:25:35,0.122s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:25:35,2018-05-01 13:25:35,0.150s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:25:35,2018-05-01 13:25:35,0.122s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:25:35,2018-05-01 13:25:38,2.529s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:38,0.045s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:38,0.179s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:38,0.137s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:38,0.121s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:38,0.171s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:38,2018-05-01 13:25:39,0.117s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:39,2018-05-01 13:25:39,0.132s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:39,2018-05-01 13:25:39,0.107s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:25:39,2018-05-01 13:25:40,0.809s,PASSED
+Statement - mydate = new java.util.Date(),Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.011s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.003s,PASSED
+takeScreenshot,Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.407s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.010s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.049s,PASSED
+"Statement - actual = new java.util.ArrayList(1, 2)",Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:40,0.003s,PASSED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:52,12.077s,ERROR
+openBrowser,Chrome 65.0.3325.181,,2018-05-01 13:25:40,2018-05-01 13:25:44,4.325s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:25:44,2018-05-01 13:25:44,0.046s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:25:44,2018-05-01 13:25:45,0.141s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:25:45,2018-05-01 13:25:45,0.120s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:25:45,2018-05-01 13:25:50,4.939s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.091s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.150s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.090s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.108s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.117s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.108s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:50,0.102s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:25:50,2018-05-01 13:25:51,0.101s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:25:51,2018-05-01 13:25:52,1.148s,PASSED
+Statement - mydate = new java.util.Date(),Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.001s,PASSED
+"Statement - formattedDate = mydate.format(""yyyyMMddhhmmss"")",Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.002s,PASSED
+takeScreenshot,Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.418s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.001s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.032s,PASSED
+"Statement - actual = new java.util.ArrayList(1, 2)",Chrome 65.0.3325.181,,2018-05-01 13:25:52,2018-05-01 13:25:52,0.001s,PASSED

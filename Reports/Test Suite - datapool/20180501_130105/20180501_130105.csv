@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite - datapool,Chrome 65.0.3325.181,,2018-05-01 13:01:07,2018-05-01 13:01:32,25.029s,FAILED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-05-01 13:01:07,2018-05-01 13:01:21,14.010s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-01 13:01:08,2018-05-01 13:01:13,5.820s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:01:13,2018-05-01 13:01:14,0.128s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:01:14,2018-05-01 13:01:14,0.235s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:01:14,2018-05-01 13:01:14,0.188s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:01:14,2018-05-01 13:01:18,4.473s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:01:18,2018-05-01 13:01:19,0.080s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.116s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.130s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.155s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.117s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.142s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.134s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:19,0.106s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:01:19,2018-05-01 13:01:21,1.029s,PASSED
+takeScreenshot,Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:21,0.497s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:21,0.008s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:21,0.050s,PASSED
+Statement - If (table != null),Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:21,0.075s,FAILED
+,,,,,,
+Test Cases/BookFlight/TC01_bookflight_DPBysuit,Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:31,9.879s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-05-01 13:01:21,2018-05-01 13:01:26,4.692s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:01:26,2018-05-01 13:01:26,0.056s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:01:26,2018-05-01 13:01:26,0.149s,PASSED
+setText,Chrome 65.0.3325.181,,2018-05-01 13:01:26,2018-05-01 13:01:26,0.123s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:01:26,2018-05-01 13:01:29,2.353s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.076s,PASSED
+com.mercurytour.customkeyword.selectType,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.133s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.118s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.133s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.124s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.117s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:29,0.136s,PASSED
+selectOptionByLabel,Chrome 65.0.3325.181,,2018-05-01 13:01:29,2018-05-01 13:01:30,0.166s,PASSED
+click,Chrome 65.0.3325.181,,2018-05-01 13:01:30,2018-05-01 13:01:30,0.863s,PASSED
+takeScreenshot,Chrome 65.0.3325.181,,2018-05-01 13:01:30,2018-05-01 13:01:31,0.429s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 65.0.3325.181,,2018-05-01 13:01:31,2018-05-01 13:01:31,0.003s,PASSED
+"Statement - table = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]""))",Chrome 65.0.3325.181,,2018-05-01 13:01:31,2018-05-01 13:01:31,0.044s,PASSED
+Statement - If (table != null),Chrome 65.0.3325.181,,2018-05-01 13:01:31,2018-05-01 13:01:31,0.066s,FAILED
